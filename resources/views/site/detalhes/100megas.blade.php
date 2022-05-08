@@ -1,39 +1,12 @@
-<!DOCTYPE html>
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-<head>
-
-    <!-- Basic Page Needs -->
-    <meta charset="utf-8">
-    <title>Alfanet - O Mundo em suas Mãos</title>
-    <meta name="description" content="Alfanet - O futuro em suas Mãos">
-    <meta name="author" content="Elimar Santos">
-
-    <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-    <!-- Main Style -->
-    <link rel="stylesheet" href="../../../../public/css/style.css">
-
-    <!-- Skins -->
-    <link rel="stylesheet" href="../css/skins/blue.css">
-
-    <!-- Responsive Style -->
-    <link rel="stylesheet" href="../css/responsive.css">
-
-    <!-- Favicons -->
-    <link rel="shortcut icon" href="../images/favicon.png">
-
-</head>
-<body class="one-page">
+@extends('site.detalhes.layouts.base')
+@section('conteudo')
 <div class="sections section-2">
     <div class="container">
 
         <div class="row">
             <div class="sections-title">
                 <div class="sections-title-h3"><h3>Detalhe da oferta</h3></div>
-                <p>Fibra: 300 Mega <br>R$ 99,90/mês no Contrato Fidelidade 12 Meses</p>
+                <p>Fibra: 100 Mega<br>R$ 89,90/mês no Contrato Fidelidade 12 Meses</p>
             </div><!-- End sections-title -->
         </div><!-- End row -->
 
@@ -61,7 +34,7 @@
         <div class="row">
             <div class="sections-title">
                 <div class="sections-title-h3"><h3>Velocidade da Oferta</h3></div>
-                <p>300 Mega de internet: Até 300 Mega de download, até 150 Mega de upload.</p>
+                <p>100 Mega de internet: Até 100 Mega de download, até 50 Mega de upload.</p>
                 <p>Essas são as velocidades máximas nominais. A velocidade pode variar devido a fatores externos. Promocionalmente, a franquia é ilimitada. <br>Velocidade contratada é a taxa de transmissão ou velocidade da conexão. <br>É o quão rápido um pacote de dados do seu dispositivo vai ser levado até a operadora e vice-versa. </p>
             </div><!-- End sections-title -->
         </div><!-- End row -->
@@ -81,23 +54,6 @@
 </div><!-- End wrap -->
 
 <div class="go-up"><i class="fa fa-chevron-up"></i></div>
+@endsection
 
-<!-- js -->
-<script src="js/jquery.min.js"></script>
-<script src="js/html5.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/jquery.nicescroll.min.js"></script>
-<script src="js/jquery.appear.js"></script>
-<script src="js/jquery.scrollTo.js"></script>
-<script src="js/jquery.nav.js"></script>
-<script src="js/count-to.js"></script>
-<script src="js/twitter/jquery.tweet.js"></script>
-<script src="js/jquery.inview.min.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
-<script src="js/jquery.themepunch.plugins.min.js"></script>
-<script src="js/jquery.themepunch.revolution.min.js"></script>
-<script src="js/custom.js"></script>
-<!-- End js -->
-</body>
-</html>
+

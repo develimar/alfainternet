@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PrincipalController;
+use App\Http\Controllers\PlanosController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,9 @@ use App\Http\Controllers\PrincipalController;
 //});
 
 Route::get('/', [PrincipalController::class, 'Principal'])->name('site.index');
+Route::prefix('/planos')->group(function (){
+    Route::get('/100megas', [PlanosController::class, 'CemMegas'])->name('detalhes.100megas');
+    Route::get('/300megas', [PlanosController::class, 'TrezentosMegas'])->name('detalhes.300megas');
+    Route::get('/400megas', [PlanosController::class, 'QuatroCentosMegas'])->name('detalhes.400megas');
+});
+

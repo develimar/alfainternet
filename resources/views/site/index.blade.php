@@ -429,7 +429,7 @@
                                     <li><strong>Franquia</strong><span>Ilimitada</span></li>
                                     <li><strong>Wi-fi</strong><span>2G - Ilimitada</span></li>
                                     <li><strong>Acesso</strong><span>Fibra Óptica</span></li>
-                                    <li><a  style="margin: 0px 18%;"  class="button-1" href="detalhes/100mega.php" target="_blank">Saíba Mais!</a></li>
+                                    <li><a style="margin: 0px 18%;" class="button-1" href="{{route('detalhes.100megas')}}" target="_blank">Saíba Mais!</a></li>
 
                                 </ul>
                             </div>
@@ -448,7 +448,7 @@
                                     <li><strong>Franquia</strong><span>Ilimitada</span></li>
                                     <li><strong>Wi-fi</strong><span>5G - Ilimitada</span></li>
                                     <li><strong>Acesso</strong><span>Fibra Óptica</span></li>
-                                    <li><a style="margin: 0px 18%;" class="button-1" href="detalhes/300mega.php" target="_blank">Saíba Mais!</a></li>
+                                    <li><a style="margin: 0px 18%;" class="button-1" href="{{route('detalhes.300megas')}}" target="_blank">Saíba Mais!</a></li>
 
 
                                 </ul>
@@ -468,7 +468,7 @@
                                     <li><strong>Franquia</strong><span>Ilimitada</span></li>
                                     <li><strong>Wi-fi</strong><span>5G - Ilimitada</span></li>
                                     <li><strong>Acesso</strong><span>Fibra Óptica</span></li>
-                                    <li><a style="margin: 0px 18%;" class="button-1" href="detalhes/400mega.php" target="_blank">Saíba Mais!</a></li>
+                                    <li><a style="margin: 0px 18%;" class="button-1" href="{{route('detalhes.400megas')}}" target="_blank">Saíba Mais!</a></li>
 
 
                                 </ul>
