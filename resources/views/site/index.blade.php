@@ -14,16 +14,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Main Style -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <!-- Skins -->
-    <link rel="stylesheet" href="css/skins/blue.css">
+    <link rel="stylesheet" href="{{ asset('css/skins/blue.css') }}">
 
     <!-- Responsive Style -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
     <!-- Favicons -->
-    <link rel="shortcut icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}">
 
 </head>
 <body class="one-page">
@@ -54,9 +54,9 @@
             </div>
         </div><!-- End container -->
     </header><!-- End header -->
-    <header id="header" style="background-image: url('images/topo.png');background-repeat: no-repeat;">
+    <header id="header" style="background-image: url({{asset('images/topo.png')}});background-repeat: no-repeat;">
         <div class="container clearfix">
-            <div class="logo"><a href="index.php"><img alt="" src="images/logo.png">
+            <div class="logo"><a href="index.php"><img alt="" src="{{asset('images/logo.png')}}">
                     <!--</a><span>O Mundo em suas Mãos!</span>-->
             </div>
             <nav class="navigation-footer">
@@ -345,7 +345,7 @@
                                 <li><strong>Período</strong><span>Mensal</span></li>
                                 <li><strong>Franquia</strong><span>Ilimitada</span></li>
                                 <li><strong>Acesso</strong><span>Via Rádio</span></li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -564,7 +564,7 @@
                                 <li><strong>Período</strong><span>Mensal</span></li>
                                 <li><strong>Franquia</strong><span>Ilimitada</span></li>
                                 <li><strong>Acesso</strong><span>DSL</span></li>
-                                
+
                             </ul>
                         </div>
                     </div>
@@ -775,21 +775,21 @@
 <div class="go-up"><i class="fa fa-chevron-up"></i></div>
 
 <!-- js -->
-<script src="js/jquery.min.js"></script>
-<script src="js/html5.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/jquery.nicescroll.min.js"></script>
-<script src="js/jquery.appear.js"></script>
-<script src="js/jquery.scrollTo.js"></script>
-<script src="js/jquery.nav.js"></script>
-<script src="js/count-to.js"></script>
-<script src="js/twitter/jquery.tweet.js"></script>
-<script src="js/jquery.inview.min.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/jquery.bxslider.min.js"></script>
-<script src="js/jquery.themepunch.plugins.min.js"></script>
-<script src="js/jquery.themepunch.revolution.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="{{asset('js/jquery.min.js')}}"></script>
+<script src="{{asset('js/html5.js')}}"></script>
+<script src="{{asset('js/jquery.isotope.min.js')}}"></script>
+<script src="{{asset('js/jquery.nicescroll.min.js')}}"></script>
+<script src="{{asset('js/jquery.appear.js')}}"></script>
+<script src="{{asset('js/jquery.scrollTo.js')}}"></script>
+<script src="{{asset('js/jquery.nav.js')}}"></script>
+<script src="{{asset('js/count-to.js')}}"></script>
+<script src="{{asset('js/twitter/jquery.tweet.js')}}"></script>
+<script src="{{asset('js/jquery.inview.min.js')}}"></script>
+<script src="{{asset('js/jquery.prettyPhoto.js')}}"></script>
+<script src="{{asset('js/jquery.bxslider.min.js')}}"></script>
+<script src="{{asset('js/jquery.themepunch.plugins.min.js')}}"></script>
+<script src="{{asset('js/jquery.themepunch.revolution.min.js')}}"></script>
+<script src="{{asset('js/custom.js')}}"></script>
 <!-- End js -->
 <div id="whatswidget-pre-wrapper" class="">
     <div id="whatswidget-widget-wrapper" class="whatswidget-widget-wrapper" style="all:revert;">

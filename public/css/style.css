@@ -46,14 +46,14 @@
           Animation & Keyframes    */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
-@import url("css/base.css");
-@import url("css/lists.css");
-@import url("css/bootstrap.min.css");
-@import url("css/prettyPhoto.css");
-@import url("css/font-awesome/css/font-awesome.min.css");
-@import url("css/fontello/css/fontello.css");
-@import url("css/settings.css");
-@import url("css/animate-custom.css");
+@import url("base.css");
+@import url("lists.css");
+@import url("bootstrap.min.css");
+@import url("prettyPhoto.css");
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("fontello/css/fontello.css");
+@import url("settings.css");
+@import url("animate-custom.css");
 /* 01 - General & Basic Styles */
 body {
 	background-color: #FFF;
@@ -2503,7 +2503,7 @@ blockquote {
 .social-ul li:hover i,.header-search-a:hover i,.box-icon:hover .box-icon-i-2 i,.portfolio-link:hover i,.portfolio-zoom:hover i {
 	-webkit-animation: toTopFromBottom 0.3s forwards;
 	-moz-animation: toTopFromBottom 0.3s forwards;
-	animation: toTopFromBottom 0.3s forwards; 
+	animation: toTopFromBottom 0.3s forwards;
 }
 /* Keyframes */
 @-webkit-keyframes toLeftFromRight {

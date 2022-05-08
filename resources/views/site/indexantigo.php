@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <!-- Main Style -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../public/css/style.css">
 
     <!-- Skins -->
     <link rel="stylesheet" href="css/skins/blue.css">
@@ -56,7 +56,7 @@
     </header><!-- End header -->
     <header id="header">
         <div class="container clearfix">
-            <div class="logo"><a href="index.php"><img alt="" src="images/logo.png">
+            <div class="logo"><a href="index.blade.php"><img alt="" src="images/logo.png">
                     <!--</a><span>O Mundo em suas Mãos!</span>-->
             </div>
             <nav class="navigation">
