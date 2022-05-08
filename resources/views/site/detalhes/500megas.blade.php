@@ -6,7 +6,7 @@
         <div class="row">
             <div class="sections-title">
                 <div class="sections-title-h3"><h3>Detalhe da oferta</h3></div>
-                <p>Fibra: 400 Mega<br>R$ 129,90/mês no Contrato Fidelidade 12 Meses</p>
+                <p>Fibra: 500 Mega<br>R$ 99,90/mês no Contrato Fidelidade 12 Meses</p>
             </div><!-- End sections-title -->
         </div><!-- End row -->
 
@@ -35,7 +35,7 @@
         <div class="row">
             <div class="sections-title">
                 <div class="sections-title-h3"><h3>Velocidade da Oferta</h3></div>
-                <p>400 Mega de internet: Até 400 Mega de download, até 200 Mega de upload.</p>
+                <p>400 Mega de internet: Até 500 Mega de download, até 250 Mega de upload.</p>
                 <p>Essas são as velocidades máximas nominais. A velocidade pode variar devido a fatores externos. Promocionalmente, a franquia é ilimitada. <br>Velocidade contratada é a taxa de transmissão ou velocidade da conexão. <br>É o quão rápido um pacote de dados do seu dispositivo vai ser levado até a operadora e vice-versa. </p>
             </div><!-- End sections-title -->
         </div><!-- End row -->

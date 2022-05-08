@@ -20,4 +20,9 @@ class PlanosController extends Controller
     {
         return view('site.detalhes.400megas');
     }
+
+    public function QuinhentosMegas()
+    {
+        return view('site.detalhes.500megas');
+    }
 }

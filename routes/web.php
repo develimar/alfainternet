@@ -28,5 +28,6 @@ Route::prefix('/planos')->group(function (){
     Route::get('/100megas', [PlanosController::class, 'CemMegas'])->name('detalhes.100megas');
     Route::get('/300megas', [PlanosController::class, 'TrezentosMegas'])->name('detalhes.300megas');
     Route::get('/400megas', [PlanosController::class, 'QuatroCentosMegas'])->name('detalhes.400megas');
+    Route::get('/500megas', [PlanosController::class, 'QuinhentosMegas'])->name('detalhes.500megas');
 });
 
