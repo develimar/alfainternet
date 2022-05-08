@@ -658,52 +658,71 @@
             <div class="row">
                 <div class="col-md-12 main-content">
                     <div class="row">
-                        <div class="col-md-9">
-                            <div class="section-title section-title-2"><h6>Formulario de Contato:</h6></div>
-                            <div class="comment-form">
-                                <form method="post" class="form-js" action="contact_us.php">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-input">
-                                                <i class="fa fa-user"></i>
-                                                <input name="name" id="name" type="text" placeholder="Nome">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-input">
-                                                <i class="fa fa-envelope"></i>
-                                                <input name="mail" id="mail" type="email" placeholder="E-mail">
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="form-input">
-                                                <i class="fa fa-comment"></i>
-                                                <textarea name="message" id="message" placeholder="Mensagem"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <input type="submit" class="button-3" value="Enviar Mensagem">
-                                        </div>
-                                    </div><!-- End row -->
-                                </form>
-                            </div><!-- End comment-form -->
+{{--                        <div class="col-md-9">--}}
+{{--                            <div class="section-title section-title-2"><h6>Formulario de Contato:</h6></div>--}}
+{{--                            <div class="comment-form">--}}
+{{--                                <form method="post" class="form-js" action="/site/contact_us.php">--}}
+{{--                                    <div class="row">--}}
+{{--                                        <div class="col-md-6">--}}
+{{--                                            <div class="form-input">--}}
+{{--                                                <i class="fa fa-user"></i>--}}
+{{--                                                <input name="name" id="name" type="text" placeholder="Nome">--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="col-md-6">--}}
+{{--                                            <div class="form-input">--}}
+{{--                                                <i class="fa fa-envelope"></i>--}}
+{{--                                                <input name="mail" id="mail" type="email" placeholder="E-mail">--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="col-md-12">--}}
+{{--                                            <div class="form-input">--}}
+{{--                                                <i class="fa fa-comment"></i>--}}
+{{--                                                <textarea name="message" id="message" placeholder="Mensagem"></textarea>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        <div class="col-md-12">--}}
+{{--                                            <input type="submit" class="button-3" value="Enviar Mensagem">--}}
+{{--                                        </div>--}}
+{{--                                    </div><!-- End row -->--}}
+{{--                                </form>--}}
+{{--                            </div><!-- End comment-form -->--}}
+{{--                        </div>--}}
+{{--                        <div class="col-md-2">--}}
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-4">
+                            <div class="section-title section-title-2"><h6>Clique sobre o número para <br>Conversa com um vendedor :</h6></div>
+                            <div class="contact-information">
+
+{{--                                    <li>Atendimento via Home Office</li>--}}
+                                    <h3><a href="https://web.whatsapp.com/send?phone=5531999913370">Tel: (31) 9 9991-3370</a></h3>
+{{--                                    <li>E-mail: contato@alfainternet.com.br</li>--}}
+
+                            </div><!-- End contact-information -->
+                        </div>
+                        <div class="col-md-4">
                             <div class="section-title section-title-2"><h6>Informações de Contato :</h6></div>
                             <div class="contact-information">
                                 <ul>
-                                    <li>Atendimento via Home Office</li>
+{{--                                    <li>Atendimento via Home Office</li>--}}
                                     <li>Tel: 31 3774-2622 | 31 97167-0705</li>
                                     <li>E-mail: contato@alfainternet.com.br</li>
                                 </ul>
                             </div><!-- End contact-information -->
-                            <div class="section-title section-title-2 section-title-3"><h6>Horário de Funcionamento :</h6></div>
-                            <ul class="business-hours">
-                                <li>Segunda – Sábado : 09:00 ás 18:00</li>
-<!--                                <li>Sábado : 09:00 ás 13:00</li>-->
-                                <li>Domingos e Feriados : Fechado</li>
-                            </ul>
                         </div>
+                        <div class="col-md-4">
+                            <div class="section-title section-title-2"><h6>Horário de Funcionamento :</h6></div>
+                            <div class="contact-information">
+                                <ul>
+                                    <li>Segunda – Sábado : 09:00 ás 18:00</li>
+                                    <li>Domingos e Feriados : Fechado</li>
+                                    <li></li>
+                                </ul>
+                            </div><!-- End contact-information -->
+                        </div>
+
+
+{{--                        </div>--}}
                     </div><!-- End row -->
                     <div class="clearfix gap"></div>
                     <div class="clearfix gap"></div>
