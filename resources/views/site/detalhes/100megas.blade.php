@@ -6,7 +6,7 @@
         <div class="row">
             <div class="sections-title">
                 <div class="sections-title-h3"><h3>Detalhe da oferta</h3></div>
-                <p>Fibra: 100 Mega<br>R$ 89,90/mês no Contrato Fidelidade 12 Meses</p>
+                <p>Fibra: 100 Mega<br>R$ 79,90/mês no Contrato Fidelidade 12 Meses</p>
             </div><!-- End sections-title -->
         </div><!-- End row -->
 
