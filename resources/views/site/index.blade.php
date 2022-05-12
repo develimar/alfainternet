@@ -420,19 +420,21 @@
                         <div class="pricing-tables">
                             <div class="pricing-header">
 {{--                                <small>de </small><strike> R$ 259,90</strike>--}}
-                                    <h4>por apenas</h4>
-                                <div><span><b>R$ 79,90</b></span> mensal</div>
-                                <h3>100 MEGA</h3>
+                                <h3 style="font-size: 40px">100 MEGA</h3>
+                                <h4>por apenas</h4>
+                                <div>
+                                    <span><b>R$ 79,90</b></span> mensal</div>
+
                             </div>
                             <div class="pricing-content">
                                 <ul>
                                     <li><strong>Período</strong><span>Mensal</span></li>
-                                    <li><strong>Franquia</strong><span>Ilimitada</span></li>
-                                    <li><strong>Wi-fi</strong><span>4G - Ilimitada</span></li>
+                                    <li><strong>Forma de Pagamento</strong><span>Boleto</span></li>
+                                    <li><strong>Wi-fi 4</strong><span>Incluso</span></li>
                                     <li><strong>Clube de Descontos</strong><span>Clube Certo</span></li>
                                     <li><strong>Acesso</strong><span>Fibra Óptica</span></li>
                                     <li><strong>Instalação</strong><span>Gratuito</span></li>
-                                    <li><a style="margin: 0px 30%;" class="button-1" href="{{route('detalhes.100megas')}}" target="_blank">Saíba Mais!</a></li>
+                                    <li><a style="margin-left: 26%; margin-right: 26%;" class="button-1" href="{{route('detalhes.100megas')}}" target="_blank">Saíba Mais!</a></li>
 
 
                                 </ul>
@@ -443,19 +445,19 @@
                         <div class="pricing-tables">
                             <div class="pricing-header">
 {{--                                <small>de </small><strike> R$ 259,90</strike>--}}
+                                <h3 style="font-size: 40px">500 MEGA</h3>
                                     <h4>por apenas</h4>
                                 <div><span><b>R$ 99,90</b></span> mensal</div>
-                                <h3>500 MEGA</h3>
                             </div>
                             <div class="pricing-content">
                                 <ul>
                                     <li><strong>Período</strong><span>Mensal</span></li>
-                                    <li><strong>Franquia</strong><span>Ilimitada</span></li>
-                                    <li><strong>Wi-fi</strong><span>5G - Ilimitada</span></li>
+                                    <li><strong>Forma de Pagamento</strong><span>Boleto</span></li>
+                                    <li><strong>Wi-fi 5</strong><span>Incluso</span></li>
                                     <li><strong>Clube de Descontos</strong><span>Clube Certo</span></li>
                                     <li><strong>Acesso</strong><span>Fibra Óptica</span></li>
                                     <li><strong>Instalação</strong><span>Gratuito</span></li>
-                                    <li><a style="margin: 0px 30%;" class="button-1" href="{{route('detalhes.500megas')}}" target="_blank">Saíba Mais!</a></li>
+                                    <li><a style="margin-left: 26%; margin-right: 26%;" class="button-1" href="{{route('detalhes.500megas')}}" target="_blank">Saíba Mais!</a></li>
 
 
                                 </ul>

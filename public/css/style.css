@@ -663,7 +663,7 @@ input,textarea {
 }
 /* fixed-nav */
 #header.fixed-nav {
-	position: fixed;
+	/*position: absolute;*/
 	opacity: 1;
 	filter: alpha(opacity=100);
 	top: 0;
