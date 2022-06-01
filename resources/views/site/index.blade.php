@@ -416,11 +416,11 @@
 <!--                        </div>-->
 <!--                    </div>-->
 
-                    <div class="col-md-6 pricing-item">
+                    <div class="col-md-4 pricing-item">
                         <div class="pricing-tables">
                             <div class="pricing-header">
 {{--                                <small>de </small><strike> R$ 259,90</strike>--}}
-                                <h3 style="font-size: 40px">100 MEGA</h3>
+                                <h3 style="font-size: 40px">250 MEGA</h3>
                                 <h4>por apenas</h4>
                                 <div>
                                     <span><b>R$ 79,90</b></span> mensal</div>
@@ -441,7 +441,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 pricing-item">
+                    <div class="col-md-4 pricing-item">
                         <div class="pricing-tables">
                             <div class="pricing-header">
 {{--                                <small>de </small><strike> R$ 259,90</strike>--}}
@@ -464,7 +464,32 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 pricing-item">
+                        <div class="pricing-tables">
+                            <div class="pricing-header">
+                                {{--                                <small>de </small><strike> R$ 259,90</strike>--}}
+                                <h3 style="font-size: 40px">1 GIGA</h3>
+                                <h4>por apenas</h4>
+                                <div><span><b>R$ 149,90</b></span> mensal</div>
+                            </div>
+                            <div class="pricing-content">
+                                <ul>
+                                    <li><strong>Período</strong><span>Mensal</span></li>
+                                    <li><strong>Forma de Pagamento</strong><span>Boleto</span></li>
+                                    <li><strong>Wi-fi 6</strong><span>Incluso</span></li>
+                                    <li><strong>Clube de Descontos</strong><span>Clube Certo</span></li>
+                                    <li><strong>Acesso</strong><span>Fibra Óptica</span></li>
+                                    <li><strong>Instalação</strong><span>Gratuito</span></li>
+                                    <li><a style="margin-left: 26%; margin-right: 26%;" class="button-1" href="{{route('detalhes.1giga')}}" target="_blank">Saíba Mais!</a></li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div><!-- End row -->
+
+
 
 
                 <br />
