@@ -434,7 +434,7 @@
                                     <li><strong>Clube de Descontos</strong><span>Clube Certo</span></li>
                                     <li><strong>Acesso</strong><span>Fibra Óptica</span></li>
                                     <li><strong>Instalação</strong><span>Gratuito</span></li>
-                                    <li><a style="margin-left: 26%; margin-right: 26%;" class="button-1" href="{{route('detalhes.100megas')}}" target="_blank">Saíba Mais!</a></li>
+                                    <li><a style="margin-left: 26%; margin-right: 26%;" class="button-1" href="{{route('detalhes.250megas')}}" target="_blank">Saíba Mais!</a></li>
 
 
                                 </ul>
